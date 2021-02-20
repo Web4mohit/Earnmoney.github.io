@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background: rgb(4, 164, 238);
+}
+  /* Navbar section design  */
+
+  /* DESIGN OVERALL  */
+
+
+
+
+
+    /* icon CSS   */
+#icon {
+    font-size: 1.5rem;
+    position: absolute;
+    left: 1rem;
+    top: .75rem;
+    font-weight: 100px;
+}
+
+
+     /* Navigation CSS  */
+     .navcontainer {
+        border: 5px solid rgb(0, 99, 156);
+        width: 100%;
+        height: 59px;
+        background-color: rgb(0, 99, 156);
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    .navcontainer{
+        display: flex;
+        
+    }
+    .navbar{
+        font-family: 'Baloo Bhai 2', cursive;
+        position: absolute;
+        right: 1rem;
+        top: .75rem;
+    }
+    .navbar ul {
+        display: flex;
+        list-style-type: none;
+    }
+    
+    .navbar ul li a {
+        font-size: 1.55rem;
+        margin-top: 10px;
+        padding-top: 5px;
+        padding: 5px 35px;
+        color: white;
+    }
+    
+.navbar a:hover{
+    background: white;
+    color: rgb(0, 99, 156);
+    border-radius: .5rem;
+}
+
+/* SECTION CSS */
+ img{
+     float:right;
+     margin-right: 30px;
+     margin-top: 23px;
+ }
+
+ .section {
+     border: 10px solid rgb(0, 99, 156);
+     background: rgb(0, 99, 156);
+     font-size: 1.75rem;
+     color:white;
+     position: relative;
+     right: 100px;
+     top: 45px;
+     width:60%;
+     /* height: 500px; */
+     margin: auto;
+ }
+ .button{
+    border: 10px solid rgb(6, 138, 214);
+    background-color: rgb(6, 138, 214);
+    width: fit-content;
+    margin: 10px 0 0 0;
+    font-family: 'Baloo Bhai 2', cursive;
+   position: relative;
+   left: 100px;
+ }
+ a {
+    color: white;
+}
+.button a:hover {
+    color: rgba(0, 0, 0, 0.993);
+}
+ .button:hover{
+     color: black;
+    border: 10px solid rgb(4, 164, 238);
+    border-width: 10px 15px 10px 10px;
+     background-color: rgb(4, 164, 238);
+     box-shadow: rgb(16, 71, 235) 10px 10px, 15px 15px rgb(23, 60, 173);
+  
+ }
+
+ 
+
+ /*  Iframe css */
+ .iframe{
+     position: relative;
+     top: 100px;
+     border: 1px solid none;
+     height: fit-content;
+     width: fit-content;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+    }
+
+    #iframe2 {
+        margin-left: 100px;
+    }
+
+    /* BUTTON2 EDIT  */
+
+    .button2{
+        border: 10px solid rgb(6, 100, 155);
+        background-color: rgb(6, 100, 155);
+        width: fit-content;
+        margin: 10px 0 0 0;
+        font-family: 'Baloo Bhai 2', cursive;
+        float: right;
+        margin-right: 20px;
+
+    }
+    .button2:hover{
+        color: black;
+       border: 10px solid rgb(6, 100, 155);
+       border-width: 10px 15px 10px 10px;
+        background-color: rgb(6, 100, 155);
+        box-shadow: rgb(16, 71, 235) 10px 10px, 15px 15px rgb(23, 60, 173);
+     
+    }
+
+      /* Marque tool  */
+
+      @media (max-width: 900px){
+         
+          
+          .navcontainer{
+              display: flex;
+              flex-direction: column;
+          }
+        .img {
+            width: fit-content;
+            height: fit-content;
+            margin: auto;
+        }
+        .section {
+            border: 10px solid rgb(0, 99, 156);
+            background: rgb(0, 99, 156);
+            font-size: 1.75rem;
+            color:white;
+            width: fit-content;
+            height: fit-content;
+            margin: 120px;
+            display: flex;
+            flex-direction: column;
+        }
+        .button2{
+            position: relative;
+            top: 100px;
+            margin: auto;
+        }
+        
+        .two {
+            display: flex;
+            flex-direction: column;
+        }
+      .menu {
+          display: flex;
+          flex-direction: auto;
+
+      }
+      iframe {
+          width: fit-content;
+          height: fit-content;
+      }
+      p {
+          text-align: center;
+          margin: 0%;
+      }
+    
+    .navbar ul li a {
+        font-size: .85rem;
+        margin-top: 11px;
+        padding-top: 3px;
+        padding: 5px 13px;
+        color: white;
+    }
+      }
